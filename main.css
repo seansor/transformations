@@ -15,10 +15,9 @@
 .container img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
-    overflow: auto;
-    transition-duration: 1s;
-    transition-timing-function: ease-in;
+    /*transition-duration: 1s;
+    transition-timing-function: ease-in;*/
+    transition: transform 1s ease-in;
 }
 
 img:hover {
